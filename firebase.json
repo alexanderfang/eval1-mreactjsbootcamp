@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "eval1-mreactjsbootcamp",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
